@@ -1,0 +1,74 @@
+﻿  stb_image.cpp
+  main.cpp
+c:\opengl\opengp\gl\eigen.h(18): warning C4244: 'initializing': conversion from 'double' to 'OpenGP::Scalar', possible loss of data
+c:\opengl\opengp\gl\eigen.h(19): warning C4244: 'initializing': conversion from 'double' to 'OpenGP::Scalar', possible loss of data
+c:\opengl\opengp\gl\eigen.h(20): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\opengl\opengp\gl\eigen.h(21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\opengl\opengp\gl\eigen.h(24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\george\documents\uni\csc\305\assn2\triangle\triangle.h(53): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\opengl\opengp\gl\sceneobject.h(24): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\opengl\opengp\gl\glfwfpscounter.h(12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\opengl\opengp\gl\glfwfpscounter.h(25): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\opengl\opengp\gl\glfwfpscounter.h(30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\opengl\opengp\eigen\image.h(147): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\opengl\opengp\eigen\image.h(157): warning C4244: 'initializing': conversion from 'float' to 'OpenGP::uchar', possible loss of data
+c:\opengl\opengp\eigen\image.h(158): warning C4244: 'initializing': conversion from 'float' to 'OpenGP::uchar', possible loss of data
+c:\opengl\opengp\eigen\image.h(159): warning C4244: 'initializing': conversion from 'float' to 'OpenGP::uchar', possible loss of data
+c:\users\george\documents\uni\csc\305\assn2\quad\quad.h(118): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\george\documents\uni\csc\305\assn2\wings.h(152): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\george\documents\uni\csc\305\assn2\main.cpp(63): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\george\documents\uni\csc\305\assn2\main.cpp(76): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\users\george\documents\uni\csc\305\assn2\main.cpp(77): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\users\george\documents\uni\csc\305\assn2\main.cpp(87): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\users\george\documents\uni\csc\305\assn2\main.cpp(93): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1198,5): warning MSB8012: TargetPath(C:\Users\george\Documents\UNI\CSC\305\assn2\x64\Debug\assn2.exe) does not match the Linker's OutputFile property value (C:\Users\george\Documents\UNI\CSC\305\assn2\assn2.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+main.obj : error LNK2019: unresolved external symbol __imp_glewInit referenced in function "int __cdecl OpenGP::glfwMakeWindow(char const *)" (?glfwMakeWindow@OpenGP@@YAHPEBD@Z)
+main.obj : error LNK2019: unresolved external symbol __imp_glewGetErrorString referenced in function "int __cdecl OpenGP::glfwMakeWindow(char const *)" (?glfwMakeWindow@OpenGP@@YAHPEBD@Z)
+main.obj : error LNK2019: unresolved external symbol glfwInit referenced in function "int __cdecl OpenGP::glfwMakeWindow(char const *)" (?glfwMakeWindow@OpenGP@@YAHPEBD@Z)
+main.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function "void __cdecl OpenGP::glfwMainLoop(void)" (?glfwMainLoop@OpenGP@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol glfwSetErrorCallback referenced in function "int __cdecl OpenGP::glfwMakeWindow(char const *)" (?glfwMakeWindow@OpenGP@@YAHPEBD@Z)
+main.obj : error LNK2019: unresolved external symbol glfwWindowHint referenced in function "int __cdecl OpenGP::glfwMakeWindow(char const *)" (?glfwMakeWindow@OpenGP@@YAHPEBD@Z)
+main.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function "int __cdecl OpenGP::glfwMakeWindow(char const *)" (?glfwMakeWindow@OpenGP@@YAHPEBD@Z)
+main.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function "void __cdecl OpenGP::glfwMainLoop(void)" (?glfwMainLoop@OpenGP@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol glfwGetWindowAttrib referenced in function "int __cdecl OpenGP::glfwMakeWindow(char const *)" (?glfwMakeWindow@OpenGP@@YAHPEBD@Z)
+main.obj : error LNK2019: unresolved external symbol glfwPollEvents referenced in function "void __cdecl OpenGP::glfwMainLoop(void)" (?glfwMainLoop@OpenGP@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol glfwSetInputMode referenced in function "int __cdecl OpenGP::glfwMakeWindow(char const *)" (?glfwMakeWindow@OpenGP@@YAHPEBD@Z)
+main.obj : error LNK2019: unresolved external symbol glfwGetKey referenced in function "void __cdecl OpenGP::glfwMainLoop(void)" (?glfwMainLoop@OpenGP@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol glfwGetTime referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function "int __cdecl OpenGP::glfwMakeWindow(char const *)" (?glfwMakeWindow@OpenGP@@YAHPEBD@Z)
+main.obj : error LNK2019: unresolved external symbol glfwGetCurrentContext referenced in function "int __cdecl OpenGP::glfwMakeWindow(char const *)" (?glfwMakeWindow@OpenGP@@YAHPEBD@Z)
+main.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function "void __cdecl OpenGP::glfwMainLoop(void)" (?glfwMainLoop@OpenGP@@YAXXZ)
+main.obj : error LNK2001: unresolved external symbol __imp___glewActiveTexture
+main.obj : error LNK2001: unresolved external symbol __imp___glewBlendFuncSeparate
+main.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+main.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+main.obj : error LNK2001: unresolved external symbol __imp___glewGenBuffers
+main.obj : error LNK2001: unresolved external symbol __imp___glewAttachShader
+main.obj : error LNK2001: unresolved external symbol __imp___glewCompileShader
+main.obj : error LNK2001: unresolved external symbol __imp___glewCreateProgram
+main.obj : error LNK2001: unresolved external symbol __imp___glewCreateShader
+main.obj : error LNK2001: unresolved external symbol __imp___glewDeleteShader
+main.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+main.obj : error LNK2001: unresolved external symbol __imp___glewGetAttribLocation
+main.obj : error LNK2001: unresolved external symbol __imp___glewGetProgramInfoLog
+main.obj : error LNK2001: unresolved external symbol __imp___glewGetProgramiv
+main.obj : error LNK2001: unresolved external symbol __imp___glewGetShaderInfoLog
+main.obj : error LNK2001: unresolved external symbol __imp___glewGetShaderiv
+main.obj : error LNK2001: unresolved external symbol __imp___glewGetUniformLocation
+main.obj : error LNK2001: unresolved external symbol __imp___glewLinkProgram
+main.obj : error LNK2001: unresolved external symbol __imp___glewShaderSource
+main.obj : error LNK2001: unresolved external symbol __imp___glewUniform1f
+main.obj : error LNK2001: unresolved external symbol __imp___glewUniform1i
+main.obj : error LNK2001: unresolved external symbol __imp___glewUniformMatrix4fv
+main.obj : error LNK2001: unresolved external symbol __imp___glewUseProgram
+main.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribPointer
+main.obj : error LNK2001: unresolved external symbol __imp___glewGenerateMipmap
+main.obj : error LNK2001: unresolved external symbol __imp___glewBindVertexArray
+main.obj : error LNK2001: unresolved external symbol __imp___glewGenVertexArrays
+main.obj : error LNK2001: unresolved external symbol __imp_glewExperimental
+C:\OpenGL\glew\lib\win32\glew32s.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\OpenGL\glew\lib\win32\glew32.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\OpenGL\glfw\lib-vc2015\glfw3.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\OpenGL\glfw\lib-vc2015\glfw3dll.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\Users\george\Documents\UNI\CSC\305\assn2\assn2.exe : fatal error LNK1120: 44 unresolved externals
